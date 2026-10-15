@@ -1392,9 +1392,45 @@
       }
       .floating-wa-btn {
         bottom: 84px;
-        right: 16px;
+        right: 20px;
         width: 52px;
         height: 52px;
+      }
+    }
+
+    /* Small Mobile Viewport Shield (<= 480px, including 320px) */
+    @media (max-width: 480px) {
+      .indicator-step span:not(.indicator-step-num) {
+        display: none;
+      }
+      .funnel-steps-indicator {
+        justify-content: space-around;
+        padding-bottom: 12px;
+      }
+      .floating-wa-btn {
+        right: 20px;
+      }
+      .radar-pulse-ring {
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        animation: radarPulseMobile 2.4s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+      }
+    }
+
+    @keyframes radarPulseMobile {
+      0% {
+        transform: scale(0.95);
+        opacity: 0.9;
+      }
+      70% {
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1.2);
+        opacity: 0;
       }
     }
   </style>
