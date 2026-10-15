@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;" aria-hidden="true">
+  <!-- 1. Icono Diente / Salud Dental General -->
+  <symbol id="icon-diente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.5 9c-.5-3.5 1.5-6 4.5-6 1.8 0 2.5 1 3 1s1.2-1 3-1c3 0 5 2.5 4.5 6-.8 5.5-2.5 12-4.5 12-1.5 0-2-3.5-3-3.5s-1.5 3.5-3 3.5c-2 0-3.7-6.5-4.5-12z"/>
+  </symbol>
+
+  <!-- 2. Icono Implante Dental / Carga Inmediata -->
+  <symbol id="icon-implante" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2v20M7 6h10M8 10h8M9 14h6M10 18h4"/>
+    <path d="M7 6c0-2 2-4 5-4s5 2 5 4"/>
+  </symbol>
+
+  <!-- 3. Icono Cirugía Oral Avanzada / Bisturí Quirúrgico -->
+  <symbol id="icon-cirugia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14.5 4.5l5 5L7 22H2v-5L14.5 4.5z"/>
+    <path d="M12 7l5 5"/>
+  </symbol>
+
+  <!-- 4. Icono Ortodoncia Invisible / Alineadores -->
+  <symbol id="icon-ortodoncia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+    <rect x="7" y="10" width="3" height="4" rx="1"/>
+    <rect x="14" y="10" width="3" height="4" rx="1"/>
+    <path d="M4 12h3m7 0h3m-7 0h4"/>
+  </symbol>
+
+  <!-- 5. Icono Corona Dental / Estética Dental y Carillas -->
+  <symbol id="icon-corona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 18h20L19 7l-5 5-2-8-2 8-5-5L2 18z"/>
+    <path d="M5 21h14"/>
+  </symbol>
+
+  <!-- 6. Icono Sonrisa Radiante / DSD Digital Smile Design -->
+  <symbol id="icon-sonrisa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+    <line x1="9" y1="9" x2="9.01" y2="9"/>
+    <line x1="15" y1="9" x2="15.01" y2="9"/>
+  </symbol>
+
+  <!-- 7. Icono Sedación Consciente Monitorizada / Cero Dolor -->
+  <symbol id="icon-sedacion" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/>
+    <path d="M16 6h3l-3 3h3"/>
+  </symbol>
+
+  <!-- 8. Icono Transporte VIP Gratuito / Recogida en Hotel -->
+  <symbol id="icon-transporte" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1" y="3" width="15" height="13" rx="2"/>
+    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+    <circle cx="5.5" cy="18.5" r="2.5"/>
+    <circle cx="18.5" cy="18.5" r="2.5"/>
+  </symbol>
+
+  <!-- 9. Icono Garantía 10 Años / Escudo de Calidad -->
+  <symbol id="icon-garantia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+    <path d="M9 12l2 2 4-4"/>
+  </symbol>
+
+  <!-- 10. Icono Urgencia 24h / Odontología de Urgencia -->
+  <symbol id="icon-urgencia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M12 6v12M6 12h12"/>
+  </symbol>
+
+  <!-- 11. Icono Teléfono / Llamada Directa Clicable -->
+  <symbol id="icon-telefono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+  </symbol>
+
+  <!-- 12. Icono WhatsApp / Chat Directo -->
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+  </symbol>
+
+  <!-- 13. Icono Reseña Estrella / Trust Google 4.9 -->
+  <symbol id="icon-estrella" viewBox="0 0 24 24" fill="currentColor">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+  </symbol>
+
+  <!-- 14. Icono Calendario / Reserva de Cita Rápida -->
+  <symbol id="icon-calendario" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+    <line x1="16" y1="2" x2="16" y2="6"/>
+    <line x1="8" y1="2" x2="8" y2="6"/>
+    <line x1="3" y1="10" x2="21" y2="10"/>
+    <circle cx="12" cy="15" r="1.5" fill="currentColor"/>
+  </symbol>
+
+  <!-- 15. Icono Check / Ventaja Clínica Verificada -->
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="20 6 9 17 4 12"/>
+  </symbol>
+
+  <!-- 16. Icono Idioma / Selector Multilingüe (ES, EN, DE, IT) -->
+  <symbol id="icon-idioma" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <line x1="2" y1="12" x2="22" y2="12"/>
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+  </symbol>
+</svg>

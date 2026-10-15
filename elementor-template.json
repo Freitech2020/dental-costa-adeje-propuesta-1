@@ -1,0 +1,1063 @@
+{
+  "version": "0.4",
+  "title": "Dental Costa Adeje - Propuesta 1 (Swiss High-Tech)",
+  "type": "page",
+  "content": [
+    {
+      "id": "cnt_topbar_01",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "justify_content": "space-between",
+        "align_items": "center",
+        "flex_wrap": "wrap",
+        "padding": {
+          "unit": "px",
+          "top": "8",
+          "bottom": "8",
+          "left": "20",
+          "right": "20"
+        },
+        "background_color": "#F8FAFC",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0"
+        },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "wgt_top_trust",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<div style='display:inline-flex;align-items:center;gap:12px;font-size:13px;color:#475569;'><span style='background:#F0FDF4;border:1px solid #BBF7D0;color:#166534;font-weight:700;padding:3px 10px;border-radius:12px;'>⭐️ 4.9/5 en Google (180+ reseñas)</span><span>Costa Adeje • Tenerife Sur</span></div>"
+          }
+        },
+        {
+          "id": "wgt_top_actions",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<div style='display:inline-flex;align-items:center;gap:16px;font-size:13px;'><span style='color:#0F172A;font-weight:600;'>Urgencias: <a href='tel:+34683101030' style='color:#007A6C;font-weight:700;'>(+34) 683 10 10 30</a></span><div style='display:inline-flex;background:#F1F5F9;border-radius:14px;padding:2px 6px;gap:4px;font-weight:700;color:#475569;'><span style='background:#00A896;color:#0A192F;padding:2px 8px;border-radius:10px;'>ES</span><span>EN</span><span>DE</span><span>IT</span></div></div>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cnt_header_01",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "justify_content": "space-between",
+        "align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "16",
+          "bottom": "16",
+          "left": "20",
+          "right": "20"
+        },
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0"
+        },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "wgt_logo",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/logo_costa_adeje_dental.webp"
+            },
+            "image_size": "full",
+            "width": {
+              "unit": "px",
+              "size": 220
+            }
+          }
+        },
+        {
+          "id": "cnt_nav_cta",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "align_items": "center",
+            "gap": {
+              "unit": "px",
+              "size": 14
+            }
+          },
+          "elements": [
+            {
+              "id": "wgt_phone_header",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "📞 (+34) 683 10 10 30",
+                "link": {
+                  "url": "tel:+34683101030"
+                },
+                "button_text_color": "#0F172A",
+                "background_color": "#F1F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "700",
+                "padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "18",
+                  "bottom": "10",
+                  "left": "18"
+                }
+              }
+            },
+            {
+              "id": "wgt_cita_header",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Pedir 1ª Cita Gratuita",
+                "link": {
+                  "url": "#pedir-cita"
+                },
+                "button_text_color": "#0A192F",
+                "background_color": "#00A896",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "700",
+                "padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "22",
+                  "bottom": "10",
+                  "left": "22"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt_hero_01",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "justify_content": "space-between",
+        "align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "bottom": "64",
+          "left": "20",
+          "right": "20"
+        },
+        "background_background": "gradient",
+        "background_color": "#FFFFFF",
+        "background_color_b": "#F8FAFC"
+      },
+      "elements": [
+        {
+          "id": "cnt_hero_text",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 54
+            },
+            "flex_direction": "column",
+            "gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "wgt_hero_badge",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:#F0FDF4;border:1px solid #BBF7D0;border-radius:20px;font-size:14px;font-weight:700;color:#166534;'><span>🛡️ Tecnología Suiza Straumann® • Garantía 10 Años</span></div>"
+              }
+            },
+            {
+              "id": "wgt_hero_h1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Odontología de Precisión Suiza e Implantes Dentales Guiados 3D",
+                "header_size": "h1",
+                "title_color": "#0F172A",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 46
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.18
+                }
+              }
+            },
+            {
+              "id": "wgt_hero_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='font-size:18px;line-height:1.65em;color:#475569;'>Recupere su sonrisa definitiva en 24 horas con microcirugía guiada por ordenador, sedación consciente monitorizada y materiales bioactivos Straumann®. Diagnóstico digital 3D y presupuesto cerrado sin sorpresas en Costa Adeje, Tenerife Sur.</p>"
+              }
+            },
+            {
+              "id": "cnt_hero_btns",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_direction": "row",
+                "gap": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "wgt_hero_btn_main",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Pedir Diagnóstico 3D Gratuito",
+                    "link": {
+                      "url": "#pedir-cita"
+                    },
+                    "button_text_color": "#0A192F",
+                    "background_color": "#00A896",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20"
+                    },
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "32",
+                      "bottom": "16",
+                      "left": "32"
+                    }
+                  }
+                },
+                {
+                  "id": "wgt_hero_btn_call",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "📞 Llamar: (+34) 683 10 10 30",
+                    "link": {
+                      "url": "tel:+34683101030"
+                    },
+                    "button_text_color": "#0F172A",
+                    "background_color": "#F1F5F9",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20"
+                    },
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "26",
+                      "bottom": "16",
+                      "left": "26"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wgt_hero_bullets",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;flex-wrap:wrap;gap:20px;padding-top:16px;border-top:1px solid #E2E8F0;font-size:15px;font-weight:600;color:#0F172A;'><span style='display:inline-flex;align-items:center;gap:6px;'><strong style='color:#007A6C;'>✓</strong> Carga inmediata en 24h</span><span style='display:inline-flex;align-items:center;gap:6px;'><strong style='color:#007A6C;'>✓</strong> Sedación consciente indolora</span><span style='display:inline-flex;align-items:center;gap:6px;'><strong style='color:#007A6C;'>✓</strong> Transporte gratuito a clínica</span></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cnt_hero_visual",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 42
+            },
+            "position": "relative",
+            "background_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24"
+            },
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -4,
+              "color": "rgba(15, 23, 42, 0.08)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "wgt_hero_image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/hero_fondo_clinica.webp"
+                },
+                "image_size": "full",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18"
+                }
+              }
+            },
+            {
+              "id": "wgt_hero_telemetry",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='display:flex;justify-content:space-between;background:rgba(15,23,42,0.9);padding:12px 16px;border-radius:14px;color:#FFFFFF;font-size:13px;margin-top:12px;'><div><span style='color:#94A3B8;font-size:11px;display:block;'>MARGEN PRECISIÓN</span><strong style='color:#00A896;font-size:16px;'>0.01 mm</strong></div><div><span style='color:#94A3B8;font-size:11px;display:block;'>PLANIFICACIÓN</span><strong style='color:#38BDF8;font-size:16px;'>CBCT 3D</strong></div><div><span style='color:#94A3B8;font-size:11px;display:block;'>GARANTÍA OFICIAL</span><strong style='color:#34D399;font-size:16px;'>10 Años</strong></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt_brands_01",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "justify_content": "space-between",
+        "align_items": "center",
+        "flex_wrap": "wrap",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "bottom": "24",
+          "left": "20",
+          "right": "20"
+        },
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0"
+        },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "wgt_brands_label",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "PARTNERS Y CERTIFICACIONES OFICIALES:",
+            "header_size": "h4",
+            "title_color": "#64748B",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_font_weight": "700"
+          }
+        },
+        {
+          "id": "cnt_brands_logos",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "gap": {
+              "unit": "px",
+              "size": 28
+            },
+            "align_items": "center",
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "wgt_b_straumann",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/marca_straumann.webp"
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 120
+                }
+              }
+            },
+            {
+              "id": "wgt_b_nobel",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/marca_nobel_biocare.webp"
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 120
+                }
+              }
+            },
+            {
+              "id": "wgt_b_ticare",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/marca_ticare.webp"
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 120
+                }
+              }
+            },
+            {
+              "id": "wgt_b_invisalign",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/marca_invisalign.webp"
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 120
+                }
+              }
+            },
+            {
+              "id": "wgt_b_spark",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/marca_spark.webp"
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 120
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt_pillars_01",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80",
+          "left": "20",
+          "right": "20"
+        },
+        "background_color": "#F8FAFC"
+      },
+      "elements": [
+        {
+          "id": "wgt_pillars_h2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "4 Pilares de Excelencia Quirúrgica en Costa Adeje",
+            "header_size": "h2",
+            "title_color": "#0F172A",
+            "align": "center",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_weight": "800"
+          }
+        },
+        {
+          "id": "cnt_pillars_cards",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 20
+            },
+            "margin": {
+              "unit": "px",
+              "top": "40",
+              "bottom": "0",
+              "left": "0",
+              "right": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "cnt_card_p1",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "bottom": "28",
+                  "left": "20",
+                  "right": "20"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_color": "#E2E8F0"
+              },
+              "elements": [
+                {
+                  "id": "wgt_p1_text",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div><div style='width:48px;height:48px;background:#E6F6F4;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px;'>🔬</div><h3 style='font-size:18px;font-weight:700;color:#0F172A;margin-bottom:8px;'>Cirugía Guiada 3D</h3><p style='font-size:15px;line-height:1.6em;color:#475569;'>Planificación digital milimétrica asistida por TAC CBCT. Férula quirúrgica sin incisiones traumáticas.</p></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cnt_card_p2",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "bottom": "28",
+                  "left": "20",
+                  "right": "20"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_color": "#E2E8F0"
+              },
+              "elements": [
+                {
+                  "id": "wgt_p2_text",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div><div style='width:48px;height:48px;background:#E6F6F4;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px;'>⚡️</div><h3 style='font-size:18px;font-weight:700;color:#0F172A;margin-bottom:8px;'>Carga Inmediata 24h</h3><p style='font-size:15px;line-height:1.6em;color:#475569;'>Dientes fijos colocados el mismo día quirúrgico. Sonría y mastique sin esperas prolongadas.</p></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cnt_card_p3",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "bottom": "28",
+                  "left": "20",
+                  "right": "20"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_color": "#E2E8F0"
+              },
+              "elements": [
+                {
+                  "id": "wgt_p3_text",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div><div style='width:48px;height:48px;background:#E6F6F4;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px;'>😴</div><h3 style='font-size:18px;font-weight:700;color:#0F172A;margin-bottom:8px;'>Sedación Monitorizada</h3><p style='font-size:15px;line-height:1.6em;color:#475569;'>Tratamiento 100% indoloro con anestesista presencial. Tranquilidad absoluta contra el miedo dental.</p></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cnt_card_p4",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "bottom": "28",
+                  "left": "20",
+                  "right": "20"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_color": "#E2E8F0"
+              },
+              "elements": [
+                {
+                  "id": "wgt_p4_text",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div><div style='width:48px;height:48px;background:#E6F6F4;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px;'>🛡️</div><h3 style='font-size:18px;font-weight:700;color:#0F172A;margin-bottom:8px;'>Garantía 10 Años</h3><p style='font-size:15px;line-height:1.6em;color:#475569;'>Certificado oficial de autenticidad y garantía internacional Straumann® en componentes de titanio.</p></div>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt_team_01",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80",
+          "left": "20",
+          "right": "20"
+        },
+        "background_color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "wgt_team_h2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Cuadro Médico Quirúrgico Certificado (E-E-A-T)",
+            "header_size": "h2",
+            "title_color": "#0F172A",
+            "align": "center",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_weight": "800"
+          }
+        },
+        {
+          "id": "cnt_team_cards",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "margin": {
+              "unit": "px",
+              "top": "40",
+              "bottom": "0",
+              "left": "0",
+              "right": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "cnt_doc_1",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                },
+                "background_color": "#F8FAFC",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_color": "#E2E8F0",
+                "padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "24",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "wgt_doc1_img",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/doctor_facundo_mateo.webp"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    }
+                  }
+                },
+                {
+                  "id": "wgt_doc1_bio",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div style='padding-top:12px;'><span style='color:#007A6C;font-size:12px;font-weight:700;text-transform:uppercase;'>DIRECTOR MÉDICO & CIRUJANO</span><h3 style='font-size:20px;font-weight:800;color:#0F172A;margin:4px 0 6px 0;'>Dr. Facundo Mateo Ríos</h3><span style='background:#F0FDF4;border:1px solid #BBF7D0;color:#166534;font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;'>COEST Nº 38000921</span><p style='font-size:14px;color:#475569;margin-top:8px;'>Especialista en cirugía guiada 3D y regeneración ósea avanzada con pasaporte oficial Straumann Provider.</p></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cnt_doc_2",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                },
+                "background_color": "#F8FAFC",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_color": "#E2E8F0",
+                "padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "24",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "wgt_doc2_img",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/clinica_doctora_consulta.webp"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    }
+                  }
+                },
+                {
+                  "id": "wgt_doc2_bio",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div style='padding-top:12px;'><span style='color:#007A6C;font-size:12px;font-weight:700;text-transform:uppercase;'>ESTÉTICA DENTAL & PRÓTESIS</span><h3 style='font-size:20px;font-weight:800;color:#0F172A;margin:4px 0 6px 0;'>Dra. Ana Isabel Martín Fuster</h3><span style='background:#F0FDF4;border:1px solid #BBF7D0;color:#166534;font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;'>COEST Nº 38001140</span><p style='font-size:14px;color:#475569;margin-top:8px;'>Experta en Digital Smile Design (DSD), carillas cerámicas E-Max y rehabilitación integral sobre implantes.</p></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cnt_doc_3",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                },
+                "background_color": "#F8FAFC",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_color": "#E2E8F0",
+                "padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "24",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "wgt_doc3_img",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://dentalcostaadeje.com/wp-content/uploads/assets_preparados/doctora_maryuri_castro.webp"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14"
+                    }
+                  }
+                },
+                {
+                  "id": "wgt_doc3_bio",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div style='padding-top:12px;'><span style='color:#007A6C;font-size:12px;font-weight:700;text-transform:uppercase;'>ORTODONCIA INVISIBLE</span><h3 style='font-size:20px;font-weight:800;color:#0F172A;margin:4px 0 6px 0;'>Dra. Maryuri de Castro</h3><span style='background:#F0FDF4;border:1px solid #BBF7D0;color:#166534;font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;'>COEST Nº 38001215</span><p style='font-size:14px;color:#475569;margin-top:8px;'>Especialista certificada Invisalign Diamond Provider y Spark, experta en alineación y biomecánica oclusal.</p></div>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnt_cro_01",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80",
+          "left": "20",
+          "right": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#0F172A"
+      },
+      "elements": [
+        {
+          "id": "wgt_cro_h2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Reserve su 1ª Consulta Quirúrgica y TAC 3D Gratuito",
+            "header_size": "h2",
+            "title_color": "#FFFFFF",
+            "align": "center",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_weight": "800"
+          }
+        },
+        {
+          "id": "wgt_cro_form_card",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<div style='background:#FFFFFF;border-radius:24px;padding:36px;max-width:700px;width:100%;margin-top:30px;color:#0F172A;'><div style='display:flex;justify-content:space-between;border-bottom:1px solid #E2E8F0;padding-bottom:14px;margin-bottom:20px;font-size:14px;font-weight:700;'><span style='color:#007A6C;'>1. Tratamiento</span><span style='color:#64748B;'>2. Datos de Contacto</span><span style='color:#64748B;'>3. Cita Confirmada</span></div><form onsubmit='event.preventDefault(); window.location.href=\"https://wa.me/34683101030?text=\" + encodeURIComponent(\"Hola Costa Adeje Dental Center, deseo agendar mi cita gratuita para implantes guiados 3D.\");'><div style='display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px;'><input type='text' placeholder='Nombre completo' required style='padding:14px;border:1px solid #CBD5E1;border-radius:12px;font-size:15px;width:100%;box-sizing:border-box;'><input type='tel' placeholder='Teléfono móvil / WhatsApp' required style='padding:14px;border:1px solid #CBD5E1;border-radius:12px;font-size:15px;width:100%;box-sizing:border-box;'></div><button type='submit' style='width:100%;padding:16px;background:#00A896;color:#0A192F;font-weight:700;font-size:16px;border:none;border-radius:20px;cursor:pointer;'>Pedir Cita Gratuita vía WhatsApp (+34 683 10 10 30)</button></form></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
