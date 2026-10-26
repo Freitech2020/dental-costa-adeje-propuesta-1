@@ -1385,6 +1385,53 @@ section.hero-section::before {
         opacity: 0;
       }
     }
+  
+    /* Botón Subir al Inicio (Translucent Swiss Glass) */
+    .btn-scroll-top {
+      position: fixed;
+      bottom: 106px;
+      right: 32px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(8, 26, 43, 0.78);
+      border: 1px solid rgba(45, 212, 191, 0.5);
+      color: #2DD4BF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 998;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 8px 24px rgba(8, 26, 43, 0.35), 0 0 12px rgba(0, 168, 150, 0.2);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(16px) scale(0.9);
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      outline: none;
+    }
+    .btn-scroll-top.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0) scale(1);
+    }
+    .btn-scroll-top:hover {
+      background: rgba(0, 168, 150, 0.92);
+      border-color: #2DD4BF;
+      color: #FFFFFF;
+      transform: translateY(-4px) scale(1.08);
+      box-shadow: 0 12px 30px rgba(0, 168, 150, 0.5);
+    }
+    @media (max-width: 640px) {
+      .btn-scroll-top {
+        bottom: 88px;
+        right: 20px;
+        width: 44px;
+        height: 44px;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -2123,5 +2170,33 @@ section.hero-section::before {
       });
     });
   </script>
+
+    <!-- Botón Subir al Inicio (Scroll to Top) -->
+  <button id="btn-scroll-top" class="btn-scroll-top" aria-label="Volver al inicio" title="Volver arriba">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script>
+    (function() {
+      const btn = document.getElementById('btn-scroll-top');
+      if (!btn) return;
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      }, { passive: true });
+
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    })();
+  </script>
+
+
 </body>
 </html>
